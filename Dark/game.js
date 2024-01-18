@@ -8,6 +8,7 @@ const game = document.getElementById('game');
 const time_line = document.querySelector(".time .time_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
+const timer = game.querySelector(".timer ")
 
 
 var soundCorrect = new Audio("sounds/correctAns.mp3");
